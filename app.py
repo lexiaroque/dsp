@@ -6,7 +6,7 @@ from io import BytesIO
 st.title("Audio Player App")
 
 # Create a file upload widget in the sidebar
-audio_file = st.sidebar.file_uploader("Upload an audio file", type=["mp3", "wav", "ogg"])
+audio_file = st.sidebar.file_uploader("Upload an audio file", type=["mp3", "wav", "ogg", "m4a"])
 
 # Initialize variables to hold audio data and display status
 audio_data = None
